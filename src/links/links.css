@@ -1,0 +1,27 @@
+.link-icon-container {
+    position: center;
+    max-width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 20px;
+}
+
+.link-icon {
+    display: inline;
+    font-size: 50px;
+    color: #DCDCDC;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+#linkedin-icon:hover, #linkedin-icon:active {
+    color: #0074B1;
+}
+
+#github-icon:hover, #github-icon:active {
+    color: #7C017C;
+}
+
+#email-icon:hover, #email-icon:active {
+    color: #E8D148;
+}

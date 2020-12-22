@@ -1,0 +1,22 @@
+.title {
+    color: #DCDCDC;
+    display: inline-block;
+    position: center;
+    font-size: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    transition: 0.3s;
+}
+
+.accent-color {
+    color: #DC3522;
+    transition: 0.3s;
+}
+
+.title:hover, .title:active  {
+    color: #DC3522;
+}
+
+.title:hover .accent-color, .title:active .accent-color {
+    color: #DCDCDC;
+}

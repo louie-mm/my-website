@@ -1,0 +1,14 @@
+.photo {
+    height: 300px;
+    position: center;
+    transition: 0.3s;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.photo:hover, .photo:active {
+    height: 330px;
+    position: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,9 @@
+#background {
+    position: fixed;
+    z-index: -1;
+    color: red;
+    height: 100%;
+    width: 100%;
+    min-height: 100% !important;
+    min-width: 100% !important;
+}

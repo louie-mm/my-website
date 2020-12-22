@@ -1,0 +1,12 @@
+.intro-container {
+    position: center;
+    max-width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 20px;
+}
+
+.intro {
+    color: #DCDCDC;
+    font-size: 22px;
+}
