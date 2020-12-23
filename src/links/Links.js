@@ -7,9 +7,9 @@ import "./links.css"
 function Links() {
     return (
         <div className={"link-icon-container"}>
-            <FontAwesomeIcon id={"linkedin-icon"} className={"link-icon"} icon={faLinkedin} />
-            <FontAwesomeIcon id={"github-icon"} className={"link-icon"} icon={faGithub} />
-            <FontAwesomeIcon id={"email-icon"} className={"link-icon"} icon={faEnvelope} />
+            <a href={"https://www.linkedin.com/in/louie-mansour-b2630a43/?originalSubdomain=ca"} target={"_blank"}><FontAwesomeIcon id={"linkedin-icon"} className={"link-icon"} icon={faLinkedin} /></a>
+            <a href={"https://github.com/louie-mm"} target={"_blank"}><FontAwesomeIcon id={"github-icon"} className={"link-icon"} icon={faGithub} /></a>
+            <a href={"mailto:career@louiem.dev"} target={"_blank"}><FontAwesomeIcon id={"email-icon"} className={"link-icon"} icon={faEnvelope} /></a>
         </div>
     );
 }

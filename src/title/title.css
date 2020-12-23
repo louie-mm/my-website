@@ -6,6 +6,10 @@
     margin-left:auto;
     margin-right:auto;
     transition: 0.3s;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Dosis', sans-serif;
+    cursor: default;
 }
 
 .accent-color {

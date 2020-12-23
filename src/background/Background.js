@@ -9,6 +9,8 @@ function Background() {
             textAlign: "center",
             height: "100%",
             width: "100%",
+            minHeight: "1200px",
+            minWidth: "1200px",
             background: "#2B2B2B"
         }
     };
@@ -33,7 +35,7 @@ function Background() {
                         "shape": {
                             "type": "circle",
                             "stroke": {
-                                "width": 5,
+                                "width": 3,
                                 "color": "#DC3522"
                             },
                             "polygon": {
@@ -56,7 +58,7 @@ function Background() {
                             }
                         },
                         "size": {
-                            "value": 2,
+                            "value": 1,
                             "random": true,
                             "anim": {
                                 "enable": false,
@@ -95,7 +97,7 @@ function Background() {
                                 "mode": "repulse"
                             },
                             "onclick": {
-                                "enable": false,
+                                "enable": true,
                                 "mode": "push"
                             },
                             "resize": false
