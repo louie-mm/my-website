@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a multi-line script
+      env:
+        LOUIE_DEV_UPLOAD_SA: ${{ secrets.LOUIE_DEV_UPLOAD_SA }}
+      run: |
+        cd $GITHUB_WORKSPACE
+        npm install
+        yarn build
+        echo $LOUIE_DEV_UPLOAD_SA >> louie-dev-upload-sa.json
+        gcloud auth activate-service-account --key-file=louie-dev-upload-sa.json
+        gsutil -m -h "Cache-Control:private, max-age=0, no-transform" rsync -r $GITHUB_WORKSPACE/build gs://louiem.dev
+        echo successfully uploaded to GCS

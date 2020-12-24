@@ -12,6 +12,20 @@
     cursor: default;
 }
 
+.subtitle {
+    color: #DCDCDC;
+    display: inline-block;
+    position: center;
+    font-size: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    transition: 0.3s;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Dosis', sans-serif;
+    cursor: default;
+}
+
 .accent-color {
     color: #DC3522;
     transition: 0.3s;
