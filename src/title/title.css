@@ -3,22 +3,21 @@
     display: inline-block;
     position: center;
     font-size: 80px;
-    margin-left:auto;
-    margin-right:auto;
     transition: 0.3s;
     font-style: normal;
     font-weight: 100;
     font-family: 'Dosis', sans-serif;
     cursor: default;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 .subtitle {
     color: #DCDCDC;
-    display: inline-block;
     position: center;
     font-size: 40px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
     transition: 0.3s;
     font-style: normal;
     font-weight: 100;
